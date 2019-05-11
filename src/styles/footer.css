@@ -1,0 +1,39 @@
+.footer {
+    max-width: 100%;
+    min-height: 50vh;
+    background: #fff;
+    display: grid;
+    grid-template-columns: 40% 40%;
+    grid-gap: 20%;
+    padding: 3rem 5rem;
+
+}
+
+.footer p {
+    margin-top: 3rem;
+}
+
+.links span {
+    margin: 0 1rem 0 0;
+    cursor: pointer;
+}
+
+.links {
+    margin-bottom: 3rem;
+}
+
+.footer input {
+    max-width: 15rem
+}
+
+.copy-socials {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 5rem;
+}
+
+.socials img {
+    width: 2rem;
+    height: 2rem;
+    margin-right: 0.5rem;
+}

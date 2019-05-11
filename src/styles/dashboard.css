@@ -1,0 +1,83 @@
+.data-chart {
+    padding: 1rem 0.5rem 1rem 0.5rem;
+    background: #fff;
+    /* border: 1px solid #FF7151; */
+
+    /* box-shadow: gray 1px 1px 10px; */
+    min-height: 20rem;
+
+}
+
+.data-chart h5 {
+    font-size: 10px;
+}
+
+.data-chart p {
+    font-size: 8px;
+    margin-top: -10px;
+}
+
+.visualization {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+    grid-template-rows: auto;
+    margin-bottom: 2rem;
+    width: 100%;
+}
+
+.dashboard {
+    padding: 2rem;
+}
+
+.visualization-2 {
+    display: grid;
+    grid-template-columns: 63% 35%;
+    grid-gap: 1rem;
+    grid-template-rows: auto;
+    margin-bottom: 2rem;
+    width: 100%;
+
+}
+
+.chart-data .labels {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn {
+    width: 5rem;
+    padding: 0.1rem 0.1rem !important;
+    margin: auto 0.5rem !important
+}
+
+.btn-custom {
+    background: #FF9722 !important;
+    border: #FF9722 solid 1px !important;
+    color: #fff !important;
+}
+
+.btn-outline {
+    border: #FF7151 1px solid !important;
+    color: #FF7151 !important;
+
+}
+
+.chart-legend {
+    display: flex;
+}
+
+.chart-legend .btn-male {
+    background: #FF7151 !important;
+    color: #fff !important;
+}
+
+.chart-legend .btn-female {
+    background: #FF9722 !important;
+    color: #fff !important;
+}
+
+.chart-legend .active {
+    background: green !important;
+    color: #fff !important;
+}

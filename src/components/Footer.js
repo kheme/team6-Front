@@ -13,7 +13,7 @@ export default class Footer extends React.Component {
         <div className="footer">
           <section>
             <article>
-              <h3>BIStack</h3>
+              <h3>BI-Stack</h3>
               <p>
                 Lorem ipsizzle dolor sit yippiyo, the bizzle adipiscing elizzle.
                 Nullizzle you son of a bizzle shit, sizzle volutpat,fizzle

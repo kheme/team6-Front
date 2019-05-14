@@ -16,8 +16,10 @@ class Cluster extends Component {
       cluster: {
         type: "digital_native",
         conversations: [
-          "I represent the digital native",
-          "I mostly browse social media sites at 8:00pm"
+          "I am a digital native",
+          "I mostly browse social media sites at 8:00pm",
+          "I like to be up to date, my favorite website is helsinginuutiset.fi",
+          "I always have the latest technologies"
         ]
       }
     });

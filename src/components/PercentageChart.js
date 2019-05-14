@@ -99,6 +99,8 @@ export default class PercentageChart extends React.Component {
     if (data.desktop.count) {
       const count = data.desktop.count + data.tablet.count + data.tablet.count;
 
+      console.log(count);
+
       return [
         <PercentageLineChart
           key={1}

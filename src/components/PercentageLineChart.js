@@ -12,7 +12,9 @@ export default ({ value, color, text }) => {
             backgroundColor: color,
             height: "100%",
             borderRadius: "10px",
-            color: "#fff"
+            color: "#fff",
+            display: "flex",
+            justifyContent: "center"
           }}
         >
           {`${value.toFixed(2)}%`}

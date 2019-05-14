@@ -7,39 +7,18 @@ class DataSelector extends React.Component {
   render() {
     return (
       <div className="data-selector">
-        <div className="selector">
-          <label>By Gender</label>
-          <select
-            className="form-control"
-            onChange={e =>
-              this.props.filterData({ key: "country", value: e.target.value })
-            }
-          >
-            <option>Male</option>
-            <option>Female</option>
-          </select>
-        </div>
-        <div className="selector">
-          <label>By Top Sites</label>
-          <select className="form-control">
-            <option>Nigeria</option>
-          </select>
-        </div>
-        <div className="selector">
-          <label>By Devices</label>
-          <select className="form-control">
-            <option>Nigeria</option>
-          </select>
-        </div>
         <div className="selector form-group">
           <label>FAQ</label>
           <br />
-          <select className="form-control">
+          <select
+            className="form-control"
+            onChange={e => this.props.filtering(e.target.value)}
+          >
             <option disabled selected>
               Find out what is important
             </option>
-            <option value="device">What type of device is being used</option>
-            <option value="peak period">What is the peak period</option>
+            <option value="level of education">Level of Education</option>
+            <option value="health">Condition of Health</option>
           </select>
         </div>
       </div>

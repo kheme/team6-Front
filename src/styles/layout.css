@@ -1,4 +1,15 @@
 .sidebar {
     display: grid;
-    grid-template-columns: 5% 95%
+    grid-template-columns: 8% 92%;
+}
+
+.ss a {
+    color: #fff;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.ss {
+    padding: 5px;
+    min-height: 1000px;
 }

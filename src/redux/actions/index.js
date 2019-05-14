@@ -5,22 +5,52 @@ let db = {
   gender: {
     male: {
       count: 234,
-      sites: {
-        site1: 123,
-        site2: 123,
-        site3: 123,
-        site4: 123,
-        site5: 123,
-        site6: 123,
-        site7: 123,
-        site8: 123,
-        site9: 123,
-        site10: 123
-      },
+      sites: [
+        {
+          url: "helsinginuutiset.fi",
+          visits: "118594"
+        },
+        {
+          url: "ess.fi",
+          visits: "86950"
+        },
+        {
+          url: "ksml.fi",
+          visits: "72965"
+        },
+        {
+          url: "kaleva.fi",
+          visits: "66997"
+        },
+        {
+          url: "savonsanomat.fi",
+          visits: "66262"
+        },
+        {
+          url: "t13.cl",
+          visits: "44420"
+        },
+        {
+          url: "13.cl",
+          visits: "36534"
+        },
+        {
+          url: "ts.fi",
+          visits: "31513"
+        },
+        {
+          url: "search.izlesene.com",
+          visits: "29807"
+        },
+        {
+          url: "m.eluniversal.com.co",
+          visits: "27331"
+        }
+      ],
       devices: {
-        desktop: 123,
-        tablet: 123,
-        mobile: 123
+        desktop: 7000,
+        tablet: 8900,
+        mobile: 15000
       },
       brands: {
         brand1: 123,
@@ -44,26 +74,56 @@ let db = {
     },
     female: {
       count: 123,
-      sites: {
-        site1: 123,
-        site2: 123,
-        site3: 123,
-        site4: 123,
-        site5: 123,
-        site6: 123,
-        site7: 123,
-        site8: 123,
-        site9: 123,
-        site10: 123
-      },
+      sites: [
+        {
+          url: "helsinginuutiset.fi",
+          visits: "115594"
+        },
+        {
+          url: "ess.fi",
+          visits: "98950"
+        },
+        {
+          url: "ksml.fi",
+          visits: "89965"
+        },
+        {
+          url: "kaleva.fi",
+          visits: "88997"
+        },
+        {
+          url: "savonsanomat.fi",
+          visits: "88262"
+        },
+        {
+          url: "t13.cl",
+          visits: "55420"
+        },
+        {
+          url: "13.cl",
+          visits: "73534"
+        },
+        {
+          url: "ts.fi",
+          visits: "78513"
+        },
+        {
+          url: "search.izlesene.com",
+          visits: "45807"
+        },
+        {
+          url: "m.eluniversal.com.co",
+          visits: "78331"
+        }
+      ],
       devices: {
-        desktop: 123,
-        tablet: 123,
-        mobile: 123
+        desktop: 17000,
+        tablet: 6700,
+        mobile: 17000
       },
       brands: {
         brand1: 123,
-        brand2: 123,
+        brand3: 123,
         brand3: 123,
         brand4: 123,
         brand5: 123,
@@ -83,38 +143,8 @@ let db = {
     }
   },
   sites: {
-    site1: {
-      count: 123,
-      gender: {
-        male: 123,
-        female: 123
-      },
-      devices: {
-        desktop: 123,
-        tablet: 123,
-        mobile: 123
-      },
-      brands: {
-        brand1: 123,
-        brand2: 123,
-        brand3: 123,
-        brand4: 123,
-        brand5: 123,
-        brand6: 123,
-        brand7: 123,
-        brand8: 123,
-        brand9: 123
-      },
-      age: {
-        "1 - 17": 123,
-        "18 - 25": 123,
-        "26 - 35": 123,
-        "36 - 50": 123,
-        "above 50": 123
-      }
-    },
-    site2: {
-      count: 123,
+    "helsinginuutiset.fi": {
+      count: 118594,
       gender: {
         male: 123,
         female: 123
@@ -144,8 +174,8 @@ let db = {
         "above 50": 123
       }
     },
-    site3: {
-      count: 123,
+    "ess.fi": {
+      count: 86950,
       gender: {
         male: 123,
         female: 123
@@ -175,8 +205,8 @@ let db = {
         "above 50": 123
       }
     },
-    site4: {
-      count: 123,
+    "ksml.fi": {
+      count: 72965,
       gender: {
         male: 123,
         female: 123
@@ -206,8 +236,8 @@ let db = {
         "above 50": 123
       }
     },
-    site5: {
-      count: 123,
+    "kaleva.fi": {
+      count: 66997,
       gender: {
         male: 123,
         female: 123
@@ -237,8 +267,8 @@ let db = {
         "above 50": 123
       }
     },
-    site6: {
-      count: 123,
+    "savonsanomat.fi": {
+      count: 66262,
       gender: {
         male: 123,
         female: 123
@@ -268,8 +298,8 @@ let db = {
         "above 50": 123
       }
     },
-    site7: {
-      count: 123,
+    "t13.cl": {
+      count: 44420,
       gender: {
         male: 123,
         female: 123
@@ -299,8 +329,8 @@ let db = {
         "above 50": 123
       }
     },
-    site8: {
-      count: 123,
+    "13.cl": {
+      count: 36534,
       gender: {
         male: 123,
         female: 123
@@ -330,8 +360,8 @@ let db = {
         "above 50": 123
       }
     },
-    site9: {
-      count: 123,
+    "ts.fi": {
+      count: 31513,
       gender: {
         male: 123,
         female: 123
@@ -361,8 +391,39 @@ let db = {
         "above 50": 123
       }
     },
-    site10: {
-      count: 123,
+    "search.izlesene.com": {
+      count: 29807,
+      gender: {
+        male: 123,
+        female: 123
+      },
+      devices: {
+        desktop: 123,
+        tablet: 123,
+        mobile: 123
+      },
+      brands: {
+        brand1: 123,
+        brand2: 123,
+        brand3: 123,
+        brand4: 123,
+        brand5: 123,
+        brand6: 123,
+        brand7: 123,
+        brand8: 123,
+        brand9: 123,
+        brand10: 123
+      },
+      age: {
+        "1 - 17": 123,
+        "18 - 25": 123,
+        "26 - 35": 123,
+        "36 - 50": 123,
+        "above 50": 123
+      }
+    },
+    "m.eluniversal.com.co": {
+      count: 27331,
       gender: {
         male: 123,
         female: 123
@@ -395,7 +456,7 @@ let db = {
   },
   devices: {
     desktop: {
-      count: 123,
+      count: 76000,
       gender: {
         male: 123,
         female: 123
@@ -421,7 +482,7 @@ let db = {
       }
     },
     tablet: {
-      count: 123,
+      count: 54000,
       gender: {
         male: 123,
         female: 123
@@ -447,7 +508,7 @@ let db = {
       }
     },
     mobile: {
-      count: 123,
+      count: 125000,
       gender: {
         male: 123,
         female: 123

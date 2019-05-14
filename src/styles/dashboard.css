@@ -81,3 +81,13 @@
     background: green !important;
     color: #fff !important;
 }
+
+.image {
+    width: 400;
+    height: 400;
+    box-shadow: 1px 1px 10px;
+    position: relative;
+    left: 50;
+
+    top: -880px
+}

@@ -1,0 +1,672 @@
+{
+	"What is your marital status?" : [
+		{
+			"answer": "Married",
+			"count": "13331"
+		},
+		{
+			"answer": "Single / Never married",
+			"count": "13187"
+		},
+		{
+			"answer": "Domestic partnership / Living with partner",
+			"count": "7048"
+		},
+		{
+			"answer": "Divorced",
+			"count": "2204"
+		},
+		{
+			"answer": "Separated",
+			"count": "648"
+		},
+		{
+			"answer": "Widowed",
+			"count": "443"
+		},
+		{
+			"answer": "Prefer not to say",
+			"count": "283"
+		},
+		{
+			"answer": "Engaged",
+			"count": "7"
+		}
+	],
+	"What is your level of education?" : [
+		{
+			"answer": "University/Higher Education",
+			"count": "15967"
+		},
+		{
+			"answer": "High School/Tertiary/Tech. College",
+			"count": "9508"
+		},
+		{
+			"answer": "Secondary School",
+			"count": "4179"
+		},
+		{
+			"answer": "Postgraduate Education",
+			"count": "1541"
+		},
+		{
+			"answer": "Primary School",
+			"count": "1083"
+		},
+		{
+			"answer": "None completed",
+			"count": "369"
+		},
+		{
+			"answer": "Prefer not to say",
+			"count": "324"
+		}
+	],
+	"What are your hobbies and interests?" : [
+		{
+			"answer": "Reading",
+			"count": "13671"
+		},
+		{
+			"answer": "Cooking",
+			"count": "12883"
+		},
+		{
+			"answer": "Travel",
+			"count": "12158"
+		},
+		{
+			"answer": "Technology/Computers",
+			"count": "9530"
+		},
+		{
+			"answer": "Arts and crafts",
+			"count": "8671"
+		},
+		{
+			"answer": "Health and fitness",
+			"count": "8440"
+		},
+		{
+			"answer": "Playing video/computer games",
+			"count": "8094"
+		},
+		{
+			"answer": "Photography",
+			"count": "7822"
+		},
+		{
+			"answer": "Interior decorating/Renovating",
+			"count": "7014"
+		},
+		{
+			"answer": "Playing music",
+			"count": "6894"
+		},
+		{
+			"answer": "Participating in sports",
+			"count": "6550"
+		},
+		{
+			"answer": "Watching sports on TV",
+			"count": "6478"
+		},
+		{
+			"answer": "Camping",
+			"count": "6445"
+		},
+		{
+			"answer": "Holiday house/Timeshare",
+			"count": "5568"
+		},
+		{
+			"answer": "Gardening",
+			"count": "5222"
+		},
+		{
+			"answer": "Extreme sports",
+			"count": "3958"
+		},
+		{
+			"answer": "Other",
+			"count": "3277"
+		},
+		{
+			"answer": "Hunting/Fishing",
+			"count": "2970"
+		},
+		{
+			"answer": "Horses",
+			"count": "2748"
+		},
+		{
+			"answer": "Skiing",
+			"count": "1761"
+		},
+		{
+			"answer": "Boating",
+			"count": "1714"
+		},
+		{
+			"answer": "Motor caravaning",
+			"count": "1226"
+		},
+		{
+			"answer": "Golf",
+			"count": "963"
+		},
+		{
+			"answer": "Cars",
+			"count": "425"
+		},
+		{
+			"answer": "Prefer not to say",
+			"count": "155"
+		},
+		{
+			"answer": "Sweet Treat Baking / Decorating",
+			"count": "39"
+		},
+		{
+			"answer": "Blogging",
+			"count": "29"
+		}
+	],
+	"Have you been diagnosed with any of the following illnesses/conditions?" : [
+		{
+			"answer": "I do not have any illnesses/conditions",
+			"count": "10882"
+		},
+		{
+			"answer": "Back Pain",
+			"count": "5167"
+		},
+		{
+			"answer": "Acne",
+			"count": "4038"
+		},
+		{
+			"answer": "Migraine",
+			"count": "4036"
+		},
+		{
+			"answer": "Allergies (not associated with Hay Fever)",
+			"count": "3524"
+		},
+		{
+			"answer": "Dental Problems",
+			"count": "3485"
+		},
+		{
+			"answer": "Depression",
+			"count": "3414"
+		},
+		{
+			"answer": "Anxiety",
+			"count": "3250"
+		},
+		{
+			"answer": "Hypertension",
+			"count": "3111"
+		},
+		{
+			"answer": "Asthma",
+			"count": "2924"
+		},
+		{
+			"answer": "Obesity",
+			"count": "2891"
+		},
+		{
+			"answer": "High Cholesterol",
+			"count": "2638"
+		},
+		{
+			"answer": "Diarrhea/Diarrhoea",
+			"count": "2412"
+		},
+		{
+			"answer": "Bronchitis",
+			"count": "2283"
+		},
+		{
+			"answer": "Sleeping Disorder",
+			"count": "2227"
+		},
+		{
+			"answer": "Sinusitis",
+			"count": "2174"
+		},
+		{
+			"answer": "Irritable Bowel Syndrome",
+			"count": "2163"
+		},
+		{
+			"answer": "Constipation",
+			"count": "1978"
+		},
+		{
+			"answer": "Gastroenteritis",
+			"count": "1905"
+		},
+		{
+			"answer": "Anemia",
+			"count": "1741"
+		},
+		{
+			"answer": "Diabetes",
+			"count": "1716"
+		},
+		{
+			"answer": "COPD",
+			"count": "1609"
+		},
+		{
+			"answer": "Reflux",
+			"count": "1580"
+		},
+		{
+			"answer": "Smoking Addiction",
+			"count": "1523"
+		},
+		{
+			"answer": "Hay Fever",
+			"count": "1370"
+		},
+		{
+			"answer": "Hypothyroidism",
+			"count": "1360"
+		},
+		{
+			"answer": "Prefer not to say",
+			"count": "1183"
+		},
+		{
+			"answer": "Thyroid Problems",
+			"count": "1140"
+		},
+		{
+			"answer": "Other",
+			"count": "1132"
+		},
+		{
+			"answer": "Food Intolerances",
+			"count": "1077"
+		},
+		{
+			"answer": "Hemorrhoids",
+			"count": "989"
+		},
+		{
+			"answer": "Osteoarthritis",
+			"count": "985"
+		},
+		{
+			"answer": "Menopause",
+			"count": "902"
+		},
+		{
+			"answer": "Heart Conditions (not heart failure)",
+			"count": "878"
+		},
+		{
+			"answer": "Gastro Esophageal Reflux (GERD)",
+			"count": "859"
+		},
+		{
+			"answer": "Arthritis",
+			"count": "731"
+		},
+		{
+			"answer": "Hepatitis",
+			"count": "713"
+		},
+		{
+			"answer": "Unstable Angina",
+			"count": "665"
+		},
+		{
+			"answer": "Shingles",
+			"count": "656"
+		},
+		{
+			"answer": "Fibromyalgia",
+			"count": "573"
+		},
+		{
+			"answer": "Colitis",
+			"count": "569"
+		},
+		{
+			"answer": "Cancer",
+			"count": "564"
+		},
+		{
+			"answer": "Carpal Tunnel Syndrome",
+			"count": "549"
+		},
+		{
+			"answer": "Psoriasis",
+			"count": "535"
+		},
+		{
+			"answer": "Arrhythmia/Atrial Fibrillation",
+			"count": "531"
+		},
+		{
+			"answer": "Ulcers",
+			"count": "499"
+		},
+		{
+			"answer": "Pneumonia",
+			"count": "480"
+		},
+		{
+			"answer": "ADD/ADHD",
+			"count": "449"
+		},
+		{
+			"answer": "Endometriosis",
+			"count": "435"
+		},
+		{
+			"answer": "Eczema",
+			"count": "429"
+		},
+		{
+			"answer": "Bipolar Disorder",
+			"count": "411"
+		},
+		{
+			"answer": "Restless Leg Syndrome",
+			"count": "408"
+		},
+		{
+			"answer": "Chronic Fatigue Syndrome",
+			"count": "379"
+		},
+		{
+			"answer": "Substance Abuse Drugs/Alcohol",
+			"count": "379"
+		},
+		{
+			"answer": "Urinary Incontinence",
+			"count": "373"
+		},
+		{
+			"answer": "Premature ejaculation",
+			"count": "361"
+		},
+		{
+			"answer": "Epilepsy",
+			"count": "348"
+		},
+		{
+			"answer": "Rheumatoid Arthritis",
+			"count": "331"
+		},
+		{
+			"answer": "Cardiovascular disease",
+			"count": "300"
+		},
+		{
+			"answer": "Overactive bladder",
+			"count": "282"
+		},
+		{
+			"answer": "Erectile Dysfunction (ED)",
+			"count": "281"
+		},
+		{
+			"answer": "Gout",
+			"count": "273"
+		},
+		{
+			"answer": "Osteoporosis",
+			"count": "271"
+		},
+		{
+			"answer": "Heart Failure",
+			"count": "239"
+		},
+		{
+			"answer": "Infertility",
+			"count": "237"
+		},
+		{
+			"answer": "Joint Replacement",
+			"count": "214"
+		},
+		{
+			"answer": "Blood Disorders (non Cancerous)",
+			"count": "192"
+		},
+		{
+			"answer": "Liver Disorders (other than cancer or cirrhosis)",
+			"count": "162"
+		},
+		{
+			"answer": "Ulcerative Colitis",
+			"count": "156"
+		},
+		{
+			"answer": "Kidney Failure",
+			"count": "154"
+		},
+		{
+			"answer": "Impotence",
+			"count": "150"
+		},
+		{
+			"answer": "Stroke",
+			"count": "135"
+		},
+		{
+			"answer": "Chronic Kidney Disease",
+			"count": "112"
+		},
+		{
+			"answer": "Crohn's Disease",
+			"count": "102"
+		},
+		{
+			"answer": "Lupus",
+			"count": "100"
+		},
+		{
+			"answer": "Cystic Fibrosis",
+			"count": "97"
+		},
+		{
+			"answer": "Tuberculosis",
+			"count": "96"
+		},
+		{
+			"answer": "Multiple Sclerosis",
+			"count": "95"
+		},
+		{
+			"answer": "Schizophrenia",
+			"count": "95"
+		},
+		{
+			"answer": "Cirrhosis",
+			"count": "84"
+		},
+		{
+			"answer": "HIV - Aids",
+			"count": "84"
+		},
+		{
+			"answer": "Lyme Disease",
+			"count": "84"
+		},
+		{
+			"answer": "Syphilis",
+			"count": "83"
+		},
+		{
+			"answer": "Liver Cirrhosis",
+			"count": "74"
+		},
+		{
+			"answer": "Hemophilia",
+			"count": "68"
+		},
+		{
+			"answer": "Emphysema",
+			"count": "65"
+		},
+		{
+			"answer": "Urinary Tract Infections (UTI)",
+			"count": "59"
+		},
+		{
+			"answer": "Parkinson's disease",
+			"count": "55"
+		},
+		{
+			"answer": "Myopia",
+			"count": "45"
+		},
+		{
+			"answer": "Astigmatism",
+			"count": "44"
+		},
+		{
+			"answer": "Motor Neuron Disease",
+			"count": "38"
+		},
+		{
+			"answer": "Dry Eye",
+			"count": "37"
+		},
+		{
+			"answer": "Genital Herpes",
+			"count": "36"
+		},
+		{
+			"answer": "Chronic Lymphocytic Leukemia",
+			"count": "31"
+		},
+		{
+			"answer": "Coeliac Disease",
+			"count": "19"
+		},
+		{
+			"answer": "Heart Murmur",
+			"count": "19"
+		},
+		{
+			"answer": "Cataracts",
+			"count": "18"
+		},
+		{
+			"answer": "Any tumor",
+			"count": "17"
+		},
+		{
+			"answer": "Rosacea",
+			"count": "15"
+		},
+		{
+			"answer": "Presbyopia",
+			"count": "12"
+		},
+		{
+			"answer": "Growth Hormone Deficiency",
+			"count": "10"
+		},
+		{
+			"answer": "Glaucoma",
+			"count": "9"
+		},
+		{
+			"answer": "Deep Vein Thrombosis (DVT)",
+			"count": "7"
+		},
+		{
+			"answer": "Hyperopia",
+			"count": "7"
+		},
+		{
+			"answer": "Ankylosing Spondylitis",
+			"count": "6"
+		},
+		{
+			"answer": "Fibroids",
+			"count": "6"
+		},
+		{
+			"answer": "Heart Attack",
+			"count": "6"
+		},
+		{
+			"answer": "Lymphoma",
+			"count": "6"
+		},
+		{
+			"answer": "Atherosclerosis",
+			"count": "4"
+		},
+		{
+			"answer": "Clostridium difficile (C.diff) infection",
+			"count": "3"
+		},
+		{
+			"answer": "Genital Warts",
+			"count": "3"
+		},
+		{
+			"answer": "Leukemia",
+			"count": "3"
+		},
+		{
+			"answer": "Macular degeneration (wet or dry)",
+			"count": "3"
+		},
+		{
+			"answer": "Psoriatic Arthritis",
+			"count": "3"
+		},
+		{
+			"answer": "Metastatic solid tumor",
+			"count": "2"
+		},
+		{
+			"answer": "Muscular Dystrophy",
+			"count": "2"
+		},
+		{
+			"answer": "Sjogrens Syndrome",
+			"count": "2"
+		},
+		{
+			"answer": "Benign Prostatic Hyperplasia, enlarged prostate",
+			"count": "1"
+		}
+	],
+	"What is your professional position in the company you work for?" : [
+		{
+			"answer": "Not a managing position",
+			"count": "11285"
+		},
+		{
+			"answer": "Other decision maker",
+			"count": "9294"
+		},
+		{
+			"answer": "I don't work",
+			"count": "6438"
+		},
+		{
+			"answer": "Director/Manager",
+			"count": "4290"
+		},
+		{
+			"answer": "Prefer not to say",
+			"count": "1527"
+		}
+	]
+}

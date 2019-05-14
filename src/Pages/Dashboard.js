@@ -9,102 +9,28 @@ import DataSelector from "../components/DataSelector";
 import "../styles/dashboard.css";
 import Chart from "react-apexcharts";
 import BrowserSpendTime from "../components/BrowserSpendTime";
+import level from "../assets/images/level of education.PNG";
+import health from "../assets/images/Condition of Health.PNG";
+
+import ReactChartkick, { LineChart, ColumnChart } from "react-chartkick";
+ReactChartkick.addAdapter(Chart);
 
 class Dashboard extends Component {
   state = {
     sex: {
       active: "all"
     },
-    devices: {
-      options: {
-        chart: {
-          id: "basic-bar"
-        },
-        xaxis: {
-          categories: [1991, 1992, 1993, 1994, 1995, 1996, 1997, 1998]
-        }
-      },
-      series: [
-        {
-          name: "series-1",
-          data: [30, 40, 45, 50, 49, 60, 70, 91]
-        }
-      ]
-    },
-    gender: {
-      legend: {
-        show: false,
-        position: "bottom"
-      },
-
-      datasets: {
-        colors: ["#FFC850", "#FF7151"]
-      },
-
-      fill: {
-        colors: ["#FFC850", "#FF7151"]
-      },
-      series: [],
-      labels: ["Male", "Female"]
-    },
-
-    donut: {
-      legend: {
-        show: false
-      },
-
-      fill: {
-        colors: ["#FFC850", "#FF7151", "#444053"]
-      },
-      series: [45, 55, 30],
-      labels: ["Tecno", "Infinix", "Samsung"]
-    },
-    browserSpendTime: [
-      {
-        name: "Browser Spend Time",
-        data: {
-          Mon: 2,
-          Tue: 5,
-          Wed: 2,
-          Thu: 6,
-          Fri: 8,
-          Sat: 6,
-          Sun: 10
-        }
-      },
-      {
-        name: "Peak period",
-        data: {
-          Mon: 10,
-          Tue: 3,
-          Wed: 5,
-          Thu: 15,
-          Fri: 89,
-          Sat: 5,
-          Sun: 10
-        }
-      }
-    ],
-
-    data: [
-      {
-        value: 80,
-        label: "Desktop"
-      },
-      {
-        value: 60,
-        label: "Tablet"
-      },
-      {
-        value: 70,
-        label: "Mobile"
-      }
-    ]
+    filter: null
   };
   componentDidMount() {
     this.props.filterData({});
     console.log(this.props);
   }
+
+  showImages = level => {
+    console.log(level);
+    this.setState({ ...this.state, filter: level });
+  };
 
   changeFilter = ({ key, value }) => {
     if (key === "gender") {
@@ -117,11 +43,23 @@ class Dashboard extends Component {
     this.props.filterData({ key, value });
   };
   render() {
-    let { data, filteredData } = this.props;
+    let filteredSites = null;
+    let {
+      data,
+      filteredData,
+
+      data: { sites }
+    } = this.props;
+
+    if (filteredData) {
+      filteredSites = filteredData.gender.sites;
+    }
+
+    console.log(filteredSites);
     return (
       <main className="dashboard">
         <div>
-          <DataSelector />
+          <DataSelector filtering={this.showImages} />
         </div>
         <div className="visualization">
           <div className="data-chart">
@@ -187,12 +125,37 @@ class Dashboard extends Component {
 
           <div className="data-chart">
             <h5>Top Sites Visited</h5>
-
-            <Chart
-              options={this.state.donut}
-              series={this.state.donut.series}
-              type="donut"
-            />
+            {filteredSites !== null ? (
+              <ColumnChart
+                data={[
+                  ["helsinginuutiset.fi", filteredSites[0].visits],
+                  ["ksml.fi", filteredSites[1].visits],
+                  ["kaleva.fi", filteredSites[2].visits],
+                  ["savonsanomat.fi", filteredSites[3].visits],
+                  ["t13.cl", filteredSites[4].visits],
+                  ["13.cl", filteredSites[5].visits],
+                  ["ts.fi", filteredSites[6].visits],
+                  ["search.izlesene.com", filteredSites[7].visits],
+                  ["m.eluniversal.com.co", filteredSites[7].visits],
+                  ["ess.fi", filteredSites[9].visits]
+                ]}
+              />
+            ) : sites ? (
+              <ColumnChart
+                data={[
+                  ["helsinginuutiset.fi", sites["helsinginuutiset.fi"].count],
+                  ["ksml.fi", sites["ksml.fi"].count],
+                  ["kaleva.fi", sites["kaleva.fi"].count],
+                  ["savonsanomat.fi", sites["savonsanomat.fi"].count],
+                  ["t13.cl", sites["t13.cl"].count],
+                  ["13.cl", sites["13.cl"].count],
+                  ["ts.fi", sites["ts.fi"].count],
+                  ["search.izlesene.com", sites["search.izlesene.com"].count],
+                  ["m.eluniversal.com.co", sites["m.eluniversal.com.co"].count],
+                  ["ess.fi", sites["ess.fi"].count]
+                ]}
+              />
+            ) : null}
           </div>
         </div>
         <div className="visualization-2">
@@ -211,6 +174,44 @@ class Dashboard extends Component {
             <PercentageChart data={this.state.data} />
           </div> */}
         </div>
+
+        {this.state.filter === "level of education" && (
+          <div className="image">
+            <div
+              onClick={() => this.setState({ ...this.state, filter: null })}
+              style={{
+                background: "red",
+                color: "#fff",
+                width: 100,
+                height: 50,
+                position: "absolute",
+                right: 0
+              }}
+            >
+              <h4>Close</h4>
+            </div>
+            <img src={level} />
+          </div>
+        )}
+
+        {this.state.filter === "health" && (
+          <div className="image">
+            <div
+              onClick={() => this.setState({ ...this.state, filter: null })}
+              style={{
+                background: "red",
+                color: "#fff",
+                width: 100,
+                height: 50,
+                position: "absolute",
+                right: 0
+              }}
+            >
+              <h4>Close</h4>
+            </div>
+            <img src={health} />
+          </div>
+        )}
       </main>
     );
   }
